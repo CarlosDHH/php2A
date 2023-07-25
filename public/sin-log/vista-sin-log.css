@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+/*header de la pagina */
+header{
+    width: 100%;
+    height: 120px;
+}
+.container{
+    width: 100%;
+}
+.base-header{
+    border:  1px;
+    border-color: black;
+    height: 120px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+}
+.footer{
+    width: 100%;
+    background-color: beige;
+    height: 120px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.options{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border: 1px solid #ccc;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    display: inline-block;
+    display: flex;
+    margin-right: 10px;
+  }
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+.centered-list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    margin-right: 20px;
+    border-right: 1px solid rgb(198, 182, 182);
+}
+.ul-log{
+    margin-right: 20px;
+}
+
+
+.horizer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 300px 1fr 150px;
+}
+/*Social donde viene lo de las redes sociales */
+.social{
+    display: flex;
+    flex-direction: column; /* Apila los divs uno encima del otro */
+    align-items: center; /* Alinea los elementos a la izquierda (alineación horizontal) */
+    justify-content: stretch; /* Distribuye el espacio verticalmente entre los divs */
+    justify-content: center;
+}
+
+.red-social a{
+    margin: 2px 2px; 
+    
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links{
+    list-style: none;
+    display: grid;
+    place-items: center;
+
+}
+
+.contact{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-right: 1px solid rgb(169, 150, 150);
+    
+}
+.contact ul{
+    list-style: none;
+    margin: 4px;
+    
+}
+
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.information a{
+    margin: 4px;
+}
+.logo-footer img{
+    margin-left: auto;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.derechos,
+.derechos small
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.content{
+    margin: 20px;
+}
